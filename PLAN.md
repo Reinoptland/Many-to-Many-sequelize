@@ -14,9 +14,9 @@
 
 # Plan
 
-- Make a ingredient model
-- Make a recipe model
-- Make a recipeIngredient model
+- X Make a ingredient model
+- X Make a recipe model
+- X Make a recipeIngredient model
 - Define the relationships between the models
 - Make "seed" file to put some data in my database
 - Try and query the database
