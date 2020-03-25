@@ -33,6 +33,11 @@ async function seedPostsAndCategories() {
   const javascriptCategory = await Category.create({
     name: "JS"
   });
+
+  helloWorld.addCategory(personalCategory);
+  howToSequelize.addCategory(dbCategory);
+  howToSequelize.addCategory(javascriptCategory);
+  javascriptCategory.addPost(javascript);
 }
 
 seedPostsAndCategories();
