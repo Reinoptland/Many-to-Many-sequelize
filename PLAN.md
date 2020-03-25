@@ -22,3 +22,19 @@
 - Try and query the database
   - I have carrot: give all the recipes
   - I want to make carrotCake give me all the ingredients
+
+* Posts
+* Categories
+
+Category hasMany Post
+Post hasMany Category
+
+Objective:
+
+- Sequelize belongsToMany relationship
+
+- Create Post model
+- Create Category model
+- Add the relationships
+- Make a seed file
+- Try Querying stuff
