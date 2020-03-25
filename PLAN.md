@@ -33,9 +33,9 @@ Objective:
 
 - Sequelize belongsToMany relationship
 
-- Create Post model
-- Create Category model
-- PostCategory
+- X Create Post model
+- X Create Category model
+- X PostCategory
 - Add the relationships
 - Make a seed file
 - Try Querying stuff
