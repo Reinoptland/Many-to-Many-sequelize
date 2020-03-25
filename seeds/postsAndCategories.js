@@ -34,10 +34,18 @@ async function seedPostsAndCategories() {
     name: "JS"
   });
 
-  helloWorld.addCategory(personalCategory);
-  howToSequelize.addCategory(dbCategory);
-  howToSequelize.addCategory(javascriptCategory);
-  javascriptCategory.addPost(javascript);
+  helloWorld.addCategory(personalCategory, {
+    through: { isMainCategory: true }
+  });
+  howToSequelize.addCategory(dbCategory, {
+    through: { isMainCategory: true }
+  });
+  howToSequelize.addCategory(javascriptCategory, {
+    through: { isMainCategory: false }
+  });
+  javascriptCategory.addPost(javascript, {
+    through: { isMainCategory: true }
+  });
 }
 
 seedPostsAndCategories();
