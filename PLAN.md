@@ -35,6 +35,7 @@ Objective:
 
 - Create Post model
 - Create Category model
+- PostCategory
 - Add the relationships
 - Make a seed file
 - Try Querying stuff
