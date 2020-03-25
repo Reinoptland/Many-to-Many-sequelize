@@ -6,6 +6,6 @@ const databaseUrl =
   "postgres://postgres:secret@localhost:5432/postgres";
 const db = new Sequelize(databaseUrl, { logging: false });
 
-db.sync({ force: true }).then(() => console.log("Models loaded"));
+db.sync({ force: false }).then(() => console.log("Models loaded"));
 
 module.exports = db;
