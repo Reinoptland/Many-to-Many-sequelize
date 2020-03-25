@@ -17,6 +17,8 @@
 - X Make a ingredient model
 - X Make a recipe model
 - X Make a recipeIngredient model
-- Define the relationships between the models
-- Make "seed" file to put some data in my database
+- X Define the relationships between the models
+- X Make "seed" file to put some data in my database
 - Try and query the database
+  - I have carrot: give all the recipes
+  - I want to make carrotCake give me all the ingredients
